@@ -5,7 +5,7 @@ metadata:
 data:
   NGINX_CONFIG: |
     server {
-      listen 80;
+      listen 8080;
       server_name example.com;
       location / {
         root /usr/share/nginx/html;
